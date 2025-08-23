@@ -1,5 +1,8 @@
 public class Condicional {
     public static void main(String[] args) {
+
+        //sintaxe com 1 possibilidade
+
        int n1 = 18;
 
        if (n1 == 189) {

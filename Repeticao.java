@@ -1,6 +1,6 @@
 //Estruturas de repetição (while e for)
 
-public class EstruturasRepeticao {
+public class Repeticao {
     public static void main(String[] args) {
         //while — repete enquanto uma condição for verdadeira
 

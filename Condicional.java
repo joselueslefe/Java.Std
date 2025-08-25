@@ -1,3 +1,9 @@
+//Condições (if, else)
+//O que são condições?
+//
+//Condições são decisões que o programa toma.
+//Tipo: “Se isso acontecer, faça isso. Senão, faça aquilo.”
+
 public class Condicional {
     public static void main(String[] args) {
 
@@ -23,6 +29,17 @@ public class Condicional {
             System.out.println("Você atingiu a pontuação desejada. Parabéns!!!");
         } else {
             System.out.println("Você precisa melhorar!");
+        }
+
+        System.out.println("-------------------------------------------------------");
+        //Mais um desafio de if/else:
+
+        int nota = 3;
+        System.out.println("Sua nota foi igual a : "+nota);
+        if (nota>=7) {
+            System.out.println("APROVADO!");
+        } else {
+            System.out.println("REPROVADO!");
         }
 
     }

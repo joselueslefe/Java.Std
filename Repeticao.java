@@ -53,6 +53,11 @@ public class Repeticao {
         } while (!saiuDoLabirinto);
 
         System.out.println("Saí depois de " + tentativas + " tentativas!");
+        //desafios:
 
+        for (int n = 20; n>=1; n--){
+            System.out.println("Contando: " + n);
+        }
+        System.out.println("Lançamento!");
     }
 }

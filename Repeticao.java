@@ -25,7 +25,7 @@ public class Repeticao {
         for (int n = 1; n <=10; n++){
             System.out.println("Repetição de número: "+n);
         }
-
+        System.out.println("STOP!!!");
         //O que isso significa?
         //
         //int i = 1 → Começa no 1
@@ -37,5 +37,22 @@ public class Repeticao {
         //
         //while = repete enquanto a condição for verdadeira
         //for = repete um número fixo de vezes
+
+
+        int tentativas = 0;
+        boolean saiuDoLabirinto = false;
+
+        do {
+            System.out.println("Tentando sair do labirinto...");
+            tentativas++;
+
+            if (tentativas == 3) {
+                saiuDoLabirinto = true;
+            }
+
+        } while (!saiuDoLabirinto);
+
+        System.out.println("Saí depois de " + tentativas + " tentativas!");
+
     }
 }

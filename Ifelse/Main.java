@@ -1,4 +1,4 @@
-package Optional;
+package Ifelse;
 
 public class Main {
     public static void main(String[] args) {

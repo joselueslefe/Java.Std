@@ -3,7 +3,7 @@ package trycatch;
 import java.util.Scanner;
 
 public class AbrindoCaixa {
-    public static void main(String[] args) {
+    public static void Ex1 (String[] args) {
         Scanner n = new Scanner(System.in);
 
         try {
